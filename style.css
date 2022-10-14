@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family:  'Helvetica Neue', sans-serif;
+}
+
+nav{
+    min-height: 80px;
+    width: 100%;
+    position: fixed;
+    background-color: transparent;
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.333);
+}
+
+.nav-link{
+    color: white;
+    font-family: Roboto;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.hero-container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("./assets/Everest_North_Face.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* filter: blur(1px); */
+}
+
+.hero-main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.237);
+    position: relative;
+}
+
+.hero-main-image{
+    width: 75%;
+    margin-top: 100px;
+    margin-left: 6%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.hero-text-container{
+    padding: 30px 50px;
+    width: fit-content;
+    background-color: rgba(22, 22, 22, 0.824);
+    position: absolute;
+    right: 5%;
+    bottom: 50px;
+    box-shadow: rgba(29, 29, 29, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.hero-text-container>p{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.second-container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("./assets/second-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* filter: blur(1px); */
+}
+
+.second-main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.16);
+    position: relative;
+}
+
+.second-main-image{
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 6%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.second-text-container{
+    padding: 30px 50px;
+    width: fit-content;
+    background-color: rgba(22, 22, 22, 0.927);
+    position: absolute;
+    right: 5%;
+    bottom: 50px;
+    box-shadow: rgba(29, 29, 29, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.second-text-container>p{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.journey-container{
+    width: 90%;
+    min-height: 80vh;
+    background-color: white;
+    padding: 20px 40px;
+}
+
+.journey-container>h1{
+    font-size: 44px;
+}
+
+.d-flex-cc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wittern-content{
+    font-size: 24px;
+}
+
